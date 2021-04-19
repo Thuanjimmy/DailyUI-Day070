@@ -1,0 +1,53 @@
+body {
+  background-color: #1b1717;
+  font-family: ubuntu;
+  margin: 25px 50px;
+}
+
+.box {
+  width: 450px;
+  height: 670px;
+  background-color: #dddddd;
+  border-radius: 50px;
+  border: white 10px solid;
+  margin: 75px auto;
+  padding: 25px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.pic {
+  width: 113%;
+  border-radius: 50px 50px 0 0;
+  position: relative;
+  right: 26px;
+  bottom: 26px;
+}
+hr {
+  color: black;
+}
+
+h6 {
+  margin: 0;
+}
+.artist {
+  position: absolute;
+  z-index: 2;
+  right: 720px;
+  top: 95px;
+  color: white;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.album {
+  position: absolute;
+  top: 275px;
+  right: 520px;
+  color: white;
+}
